@@ -1,0 +1,71 @@
+
+.main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-top: 0;
+}
+p {
+    line-height: 1.6;
+    font-size: 17px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.section-tittle h2 {
+    font-size: 35px;
+    display: block;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 21px;
+}
+@media (min-width: 768px) {
+    .competition-courses {
+      flex-direction: row;
+      align-items: center;
+      font-size: 16px; /* Increased font size for tablets */
+    }
+  
+    .competition-courses img {
+      max-width: 300px;
+      margin: 0;
+    }
+  
+    .course-details {
+      padding: 20px;
+      text-align: left;
+    }
+  
+    .course-details h2 {
+      font-size: 1.4em; /* Increased heading font size for tablets */
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 992px) {
+    .competition-courses {
+      font-size: 18px; /* Increased font size for desktops */
+    }
+  
+    .competition-courses img {
+      max-width: 400px;
+    }
+  
+    .course-details h2 {
+      font-size: 1.6em; /* Increased heading font size for desktops */
+    }
+  }
